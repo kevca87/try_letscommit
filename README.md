@@ -26,7 +26,9 @@ Esto instalará las librerias requeridas para el ejemplo.
 
 ## Crear una rama
 Para mantener limpia la rama principal de este ejemplo ejecutar:
+```
 git checkout -b <nombre-de-tu-rama>
+```
 
 ## Change, add & letscommit
 Este repositorio presenta un proyecto básico de una API en Flask, que modificará simulando un proyecto real.
@@ -54,4 +56,3 @@ El proyecto muestra actualmente una aplicación web. La tarea es transformarla e
     git log --oneline
     ```
     (wq + enter) para salir de la vista.
-    
