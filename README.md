@@ -47,4 +47,11 @@ El proyecto muestra actualmente una aplicación web. La tarea es transformarla e
     ```
     letscommit --start
     ```
-    La herramienta te sugerirá 3 mensajes, elije uno ingresando un número, o 0 para escribir un mensaje propio.
+    La herramienta te sugerirá 3 mensajes, elije uno ingresando un `número`, ó `0` para escribir un mensaje propio.
+    Pulsa `enter` y listo, el commit fue generado con el mensaje seleccionado.
+    Puedes verlo con:
+    ```
+    git log --oneline
+    ```
+    (wq + enter) para salir de la vista.
+    
