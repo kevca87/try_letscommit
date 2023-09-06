@@ -36,10 +36,15 @@ python app.py
 ```
 El proyecto muestra actualmente una aplicación web. La tarea es transformarla en una API, siguiendo los pasos:
 1. Ve a `app.py` y copia el siguiente código.
-```
-@app.route("/me")
-def me_api():
-    return {
-        "message":"Hello world!"
-    }
-```
+    ```
+    @app.route("/me")
+    def me_api():
+        return {
+            "message":"Hello world!"
+        }
+    ```
+2. A continuación ejecuta el comando:
+    ```
+    letscommit --start
+    ```
+    La herramienta te sugerirá 3 mensajes, elije uno ingresando un número, o 0 para escribir un mensaje propio.
